@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" >
+
+    <item
+        android:title="Previous"
+        android:icon="@android:drawable/ic_media_rew"
+        android:id="@+id/action_previous"
+        app:showAsAction="withText|always" />
+
+    <item
+        android:title="Random"
+        android:icon="@android:drawable/ic_menu_help"
+        android:id="@+id/action_random"
+        app:showAsAction="withText|always" />
+
+    <item
+        android:icon="@android:drawable/ic_media_ff"
+        android:id="@+id/action_next"
+        android:title="Next"
+        app:showAsAction="withText|always" />
+    
+</menu>
